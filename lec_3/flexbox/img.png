@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+    <style>
+        img{
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.google.com/search?sca_esv=d866c615fc56355b&rlz=1C1UEAD_enIN1190IN1190&sxsrf=ANbL-n7CAUywDR1Zk9OhQOEU0c7raDNQQg:1769254939226&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3p-ML-906rRL_m6h4jR-tdCeKIwp94h-QiJ4lJfObsqU79yRFgWBtc5FGpXu1cRl7WMsuLbm9eXF2miyzQA_QJ-KLUyb79IO5IlA-PPacG7YkvHaSyBe-dy6hthtWjStMQiZ2RD9OtPsgS3IsqZY70yeSJQNP8JwOLf8cwuCDIzkjkYbxQ&q=random+pics&sa=X&ved=2ahUKEwjesq2hjKSSAxXsXmwGHUzkOd4QtKgLegQIDxAB#sv=CAMSVhoyKhBlLVNTM1B2X3ZDcUZIVUFNMg5TUzNQdl92Q3FGSFVBTToOZ2Y2R3lzNldEZXZGU00gBCocCgZtb3NhaWMSEGUtU1MzUHZfdkNxRkhVQU0YADABGAcggc2DzwEwAkoKCAEQAhgCIAIoAg" alt="random pic">
+</body>
+</html>

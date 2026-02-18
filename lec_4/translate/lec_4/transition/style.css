@@ -1,0 +1,16 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+     transition-duration: 4s;
+     transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.container:hover{
+    background-color: rgb(10, 96, 67);
+    transform: translateX(900px);
+    /* transform: translateY(700px); */
+    /* transform: scale(2);
+    transform: rotate(45deg);
+   border-radius: 50%; */
+   /* rectangle me border radius in pixels only */
+}

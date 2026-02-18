@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.space{
+    width: 100vw;
+    height: 100vh;
+    background: url("img2.png") no-repeat center/cover;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Scientist standing */
+.scientist{
+    width: 70px;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+
+    animation: enterRocket 6s forwards;
+}
+
+/* Rocket container */
+.rocket{
+    position: absolute;
+    bottom: 5%;
+    left: -200px;
+
+    animation: rocketArrive 6s forwards, rocketFly 6s 6s linear infinite;
+}
+
+/* Rocket image */
+.rocket-img{
+    width: 160px;
+}
+
+/* Scientist walks and sits */
+@keyframes enterRocket{
+    0%{
+        transform: translateX(0) translateY(0) scale(1);
+        opacity: 1;
+    }
+
+    40%{
+        transform: translateX(200px) translateY(0);
+    }
+
+    60%{
+        transform: translateX(260px) translateY(-40px) scale(0.7);
+    }
+
+    100%{
+        transform: translateX(260px) translateY(-40px) scale(0.7);
+        opacity: 0;
+    }
+}
+
+/* Rocket comes to scientist */
+@keyframes rocketArrive{
+    0%{
+        transform: translateX(0);
+    }
+
+    60%{
+        transform: translateX(350px);
+    }
+
+    100%{
+        transform: translateX(350px);
+    }
+}
+
+/* Rocket flies away after scientist sits */
+@keyframes rocketFly{
+    from{
+        transform: translateX(350px);
+    }
+    to{
+        transform: translateX(120vw);
+    }
+}

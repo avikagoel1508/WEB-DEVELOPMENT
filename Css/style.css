@@ -1,0 +1,13 @@
+
+        /* .(dot) is used for class and # for id */
+        .myDiv{
+            
+            color: brown;
+        }
+        #boy{
+            color: blueviolet;
+        }
+        div{
+            color: bisque;
+        }
+    

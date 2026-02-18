@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Bill</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bill-body">
+
+<!-- Navigation Buttons -->
+<button class="back-btn" onclick="goBack('menu.html')">← Back</button>
+<button class="home-btn" onclick="goHome()">🏠</button>
+
+<h2 class="bill-title">Your Bill</h2>
+<div id="bill-items"></div>
+
+<div class="bill-summary">
+  <p>Subtotal: ₹<span id="subtotal"></span></p>
+  <p>GST (5%): ₹<span id="gst"></span></p>
+  <h3>Total: ₹<span id="total"></span></h3>
+</div>
+
+<button class="place-order-btn" onclick="placeOrder()">Place Order</button>
+<script src="script.js"></script>
+</body>
+</html>
+
