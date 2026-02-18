@@ -16,7 +16,7 @@
         }
         .leftbox{
             width: 600px;
-            height: 1000px;
+            height: 1200px;
             background-color: #3B3B3B;
             border-radius: 5%;
             display: flex;
@@ -27,8 +27,51 @@
             
         }
         .fontleft{
-            
+            font-size: 30px;
+            color: rgb(169, 124, 56);
+            font-weight: bold;
+            font-family: sans-serif;
+            padding: 8px 18px;
+            background-color: #242424;
+            border-radius:25px;
+            margin-bottom: 60px;
         }
+        .line{
+            height: 4px;
+            width: 500px;
+            background-color: #615f5f;
+             margin-bottom: 40px;
+        }
+        .contact{
+            width: 80%;            /* gives left margin feel */
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+       .label{
+        color: gray;
+        font-size: 30px;
+        font-family: sans-serif;
+        font-weight: bold;
+       }
+       .value{
+        color: rgba(240, 255, 255, 0.578);
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-bottom: 30px;
+       }
+       .emoji img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+
+       }
+       .emoji{
+        display: flex;
+        gap: 20px;
+       }
         .rightbox{
              width: 1500px;
             height: 100vh;
@@ -41,10 +84,26 @@
 <body>
     <div class="container">
     <div class="leftbox" >
-          <img src=https://static.vecteezy.com/system/resources/thumbnails/028/287/529/small/indian-man-with-crossed-arms-wearing-a-formal-shirt-ai-generated-photo.jpg alt="Human photo" style="width: 200px; height: 200px;  float: left; clip-path: circle(40%); shape-outside: circle(45%); padding-top: 40px;">
+          <img src=https://static.vecteezy.com/system/resources/thumbnails/028/287/529/small/indian-man-with-crossed-arms-wearing-a-formal-shirt-ai-generated-photo.jpg alt="Human photo" style="width: 200px; height: 200px;clip-path: circle(40%); shape-outside: circle(45%); padding-top: 40px;">
           <h2 style="font-weight: bold ; font-size: 40px; color: white; font-family:sans-serif;">Rohit Malhotra</h2>
-          <span class="fontleft">Frontend Developer</span>
+          <div class="fontleft">Frontend Developer</div>
+          <div class="line"></div>
+          <div class="contact">
+             <span class="label">Email</span>
+                <span class="value">rohit@gmail.com</span>
+             <span class="label">Phone</span>
+               <span class="value">8885678543</span>
+             <span class="label">Location</span>
+                <span class="value">Dwarka,Delhi</span>
+          </div>
+          <div class="line"></div>
+          <div class="emoji">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSBh3mNuQ3mo72v95khVRnhaDHY5tvT1axlA&s" alt="Github">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_wps6UzXYBCYjh-8jgTPYiPXKRUj8XeWlQ&s" alt="X">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjNXxwkrupFrMvZt679OmyYAh1BUQhupJ2YQ&s" alt="Linkedin">
+          </div>
     </div>
+
     <div class="rightbox">
 
     </div>
