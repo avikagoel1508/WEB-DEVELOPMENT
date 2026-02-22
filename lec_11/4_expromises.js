@@ -8,7 +8,7 @@ let p = new Promise(function (res, rej) {
     })
     .then(msg => {
         console.log(msg)
-    })
+    })     // RETURNING A STRING
 
 // p.then((msg) => {
 //     console.log(msg)

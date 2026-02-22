@@ -12,11 +12,11 @@
             gap: 50px;
             margin-left: 150px;
             margin-top: 80px;
-           
+           font-family: sans-serif;
         }
         .leftbox{
             width: 600px;
-            height: 1200px;
+            height: 1100px;
             background-color: #3B3B3B;
             border-radius: 5%;
             display: flex;
@@ -77,7 +77,50 @@
             height: 100vh;
             background-color: #3B3B3B;
             border-radius: 5%;
+            padding: 40px;
         }
+        .topnav{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .navcontent{
+            color: white;
+            font-size: 30px;
+        }
+         .space{
+            height: 4px;
+            width: 1500px;
+            background-color: #615f5f;
+             margin-bottom: 40px;
+        }
+        .about{
+            font-size: 30px;
+            color: rgba(240, 255, 255, 0.578);
+           line-height: 1.6;
+            margin-bottom: 60px;
+        }
+        .headings{
+             color: white; font-family: sans-serif; font-size: 60px; margin-left: 30px;
+        }
+        .skills{
+            display: flex;
+           flex-wrap: wrap;
+           gap: 20px;
+        }
+        .skillcard{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .skillcard img{
+    width: 300px;
+    height: 300pxpx;
+    object-fit: contain;
+}
     </style>
 
 </head>
@@ -105,7 +148,44 @@
     </div>
 
     <div class="rightbox">
-
+           <div class="topnav">
+          <span class="navcontent">About</span>
+          <span class="navcontent">Skills</span>
+          <span class="navcontent">Education</span>
+          <span class="navcontent">Portfolio</span>
+           </div>
+           <div class="space"></div>
+           <h2 class="headings">About Me</h2>
+           <div class="about">
+            <p>
+                I am a creative and passionate Frontend Developer with a keen eye for a detail and a love for building a 
+                beautiful, functional, and user friendly web experiences. My journey in web dev is driven by a desire to turn 
+                complex problems into simple, elegant solutions.I specialize in mordern web technologies and am always
+                eager to learn and adapt to the ever evolving digital landscape.
+            </p>
+           </div>
+             <h2 class="headings">My Skills</h2>
+             <div class="skills">
+                <div class="skillcard">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeRyQDgMeorD1MdkjjBq8kbdYWOq9kzr8K5g&s" alt="html 5">
+                </div>
+                <div class="skillcard">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmHAkaEBmNxTmvejqGnn_V7VDMEwQBCAlRA&s" alt="">
+                </div>
+                <div class="skillcard">
+                    <img src="https://icon2.cleanpng.com/20180810/ekz/11448a7a96ee808a3cdbaf0df9570976.webp" alt="">
+                </div>
+                <div class="skillcard">
+                    <img src="https://img.icons8.com/ios11/600/FAB005/react.png" alt="">
+                </div>
+                <div class="skillcard">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx2nH2KlX5_RznEbOrJHxF4Sp0rmL3YzhC0Q&s" alt="">
+                </div>
+                <div class="skillcard">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJncnvYJbdY0R5aLeSd8JgQJxSSuuywdiQ5g&s" alt="">
+                </div>
+                
+             </div>
     </div>
     </div>
 </body>

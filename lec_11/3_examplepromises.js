@@ -56,7 +56,7 @@ Download(url)
         console.log(err)
     })
 
-
+// RETURNING A PROMISE
 
 // Download(url)
 //     .then(movie => {
